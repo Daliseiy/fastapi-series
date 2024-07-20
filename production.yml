@@ -1,0 +1,15 @@
+version: '3.8'
+
+volumes:
+  app_data:
+
+  
+services:
+  app:
+    build: .
+    image: fastblogger
+    container_name: fastblogger
+    ports:
+      - "8080:8080"
+    volumes:
+      - app_data:/app_data

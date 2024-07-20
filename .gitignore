@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Installers
+*.whl
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# FastAPI specific
+*.log
+*.db
+instance/
+instance/*
+
+# SQLAlchemy specific
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose.*.yml
+.dockerignore
+
+# VS Code
+.vscode/
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+*.swn
+*.orig
+*.bak
+*~
+.project
+.settings/
+.metadata
+.temporary/
+releases/
